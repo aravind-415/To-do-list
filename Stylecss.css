@@ -177,5 +177,17 @@ h4{
 .task button:hover{
     color: #00F0FF;
 }
-
+@media  only screen and (max-width: 768px){
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 400px;
+    }
+    .textarea input{
+        width: 250px;
+    }
+}
+ 
  
